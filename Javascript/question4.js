@@ -1,11 +1,6 @@
 function totalFibonacci(n){
-    function fibonacciRecursive(num) {
-        if (num <= 1) return 1;
-   
-        return fibonacciRecursive(num - 1) + fibonacciRecursive(num - 2);
-    }
-    return fibonacciRecursive(n) + n;
+    if (n<=1)return 1;
+    return n + totalFibonacci(n-1);
  }
  
- 
-module.exports.totalFibonacci = totalFibonacci;
+ module.exports.totalFibonacci = totalFibonacci;

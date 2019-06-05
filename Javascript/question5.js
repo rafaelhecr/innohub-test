@@ -1,15 +1,9 @@
 function serieFibonacci(n){
-    let suc = n;
-    let susc = 1, bef = 0, tmp;
- 
-    while(n>=0){
-        tmp = susc;
-        susc = susc + bef;
-        bef = tmp;
-        n--;
+    let j=0;
+    for(let i=n-1; i>=0; i--){
+        n = n+i;
     }
- 
-    return bef + suc;
+    return n;
  }
- 
+
 module.exports.serieFibonacci = serieFibonacci;

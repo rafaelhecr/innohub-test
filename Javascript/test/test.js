@@ -53,10 +53,10 @@ describe('Pregunta 4', () => {
             assert.deepEqual(question4.totalFibonacci(3), 6)
         })
         it('quiestion4(4) debe regresar 10', function(){
-            assert.deepEqual(question4.totalFibonacci(4), 9)
+            assert.deepEqual(question4.totalFibonacci(4), 10)
         })
         it('quiestion4(5) debe regresar 15', function(){
-            assert.deepEqual(question4.totalFibonacci(5), 13)
+            assert.deepEqual(question4.totalFibonacci(5), 15)
         })
     });
 });
@@ -67,10 +67,10 @@ describe('Pregunta 5', () => {
             assert.deepEqual(question5.serieFibonacci(3),6 )
         })
         it('quiestion5(4) debe regresar 10', function(){
-            assert.deepEqual(question4.totalFibonacci(4), 10)
+            assert.deepEqual(question5.serieFibonacci(4), 10)
         })
         it('quiestion5(5) debe regresar 15', function(){
-            assert.deepEqual(question4.totalFibonacci(5), 15)
+            assert.deepEqual(question5.serieFibonacci(5), 15)
         })
     });
 });
