@@ -1,0 +1,21 @@
+{
+    "nombre": "nombre_persona",
+    "apellidos": "apellidos_persona",
+    "crup": "curp_persona",
+    "rfc": "rfc_persona",
+    "sexo": "sexo_persona",
+    "direccion_1": {
+        "calle": "calle_domicilio",
+        "colonia": "colonia_domicio",
+        "municipio": "municipio_domicilio",
+        "estado": "estado_domicilio",
+        "pais": "pais_domicilio",
+        "nacionalidad": "nacionalidad"
+    },
+    "cuentas":{
+        "cuenta_1":{
+            "username": "username",
+            "password": "password"
+        }
+    }
+}
