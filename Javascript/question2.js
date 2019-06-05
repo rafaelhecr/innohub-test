@@ -1,3 +1,5 @@
+"use strict";
+
 function reverse(w){
    let resultArray = [];
    let cont = 0;
